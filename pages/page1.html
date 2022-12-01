@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./page1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <link rel="stylesheet" href="./animations.css">
+    
+</head>
+<body id="body">
+    <div class="container">
+        <!-- AREA DOS FORMULARIOS -->
+        <div class="formback" id="formback">
+
+            <div class="formcontainer">
+                <div class="form">
+                    <header class="headform">
+                        <h3 class="cadform">Cadastro</h3>
+                        <span onclick="formEnd()" class="X">X</span>
+                        
+                    </header>
+                    <body class="bodyform">
+                            <p class="escolha">Selecione uma das opções</p>                        
+                            
+                            <div class="selecione">
+                               
+                               
+                            <div class="op1">
+                                
+                                    <div  class="check1" onclick="selectOPT(1)"><img src="./img/pointer.png" alt="ponto" id='pnt1' class="pointer"></div>
+                                    <span class="spantxt">Pessoa Fisica</span>
+
+                                   
+                            </div>
+                                
+                            <div class="op2">       
+                                
+                                    <div class="check2" onclick="selectOPT(2)"><img src="./img/pointer.png" alt="ponto"  id='pnt2' class="pointer"></div>
+                                    <span class="spantxt">Pessoa Juridica</span>
+                                </div>
+                            </div>
+                            <div id="a1" class="inputsarea1"><div class="area">
+                                <h3>Fisica</h3>   
+                            </div></div>
+                            <div id="a2" class="inputsarea2"><div class="area">
+                                <h3>Juridica</h3> 
+                            </div></div>
+
+                            
+
+                    </body>
+
+
+                    
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+        </div>
+        
+       
+        <!-- ==========-----================---------========== -->
+        
+
+             <header class="cabecalho">
+            <div class="photo"><img src="./img/logo.png" alt="" class="logo"></div>
+            <ul class="navp1">
+                <li class="navb">Cursos</li>
+                <li class="navb"   >Consultorias</li>
+                <li class="navb">Sobre Nós</li>
+                <a href="#noticias">
+                    <li class="navb">Notícias</li>
+                </a>
+            </ul>
+
+
+
+            <div class="navbar">
+                <div class="pesquisa" id="pesquisa">
+                    <input type="text" id="input" class="input">
+                    <button class="lupabt" onclick="activeSearch()"><img src="./img/lupa.png" class="lupa"  alt=""></button>
+                </div>
+                <button class="entrar">Entrar</button>
+                <button class="cadBT" onclick="formStart()">Cadastrar</button>
+            </div>
+
+
+
+        </header>
+        <main>
+            
+            
+            
+
+
+                <button class="autoplayButton">
+                    <div class="start"></div>
+                    <div class="stop"></div>
+                </button>
+                <section class="banner">
+                    <img src="./img/banner2.png" alt="" class="teste">
+                    <img src="./img/banner2.png" alt="" class="teste">
+                    <img src="./img/banner2.png" alt="" class="teste">
+                  
+                </section>
+                <section class="cursos">
+                    <div class="minititle">
+                        <h2>Cursos</h2>
+                    </div>
+
+                    <!-- Configuração dos controles do carousel -->
+
+                        <ul class="controls" id="custom-controls">
+                            <li class="prev">
+                            <img class="seta" src="./img/seta2.png" alt="">
+                            </li>
+                            <li class="next"> 
+                                <img class="seta" src="./img/seta.png" alt="">
+                            </li>
+                        </ul>
+
+
+
+                        <!-- ============================================= -->
+
+                    <div class="carousel2">
+                         
+                            <div class="slot c1"  id="c1">
+
+                                <h3 class="name-curso">Curso RH</h3>
+                                
+                                <div class="moreinfo">
+                                   
+                                    <div class="miniconthover">
+                                        <h2 class="NameCurso">Administação de Cargos & Salários</h2>
+                                        
+                                        <div class="cargah">
+                                            <img src="./img/clock.png" alt="" class="iconTime">
+                                            <span class="time">12 Horas</span>
+                                        </div>
+                                        <div class="precos">
+                                            <span class="quanParcela">12x</span>
+                                            <h3 class="valorP">R$ 7,50</h3>
+                                        </div>
+
+                                        <p class="outroValor">
+                                            ou R$ 90,00 <br> à vista
+                                        </p>        
+                                </div>
+                                    </div>
+                             
+                            </div>
+                            <div class="slot2 c2"  id="c2">
+                                <h3 class="name-curso">Curso RH</h3>
+                                <div class="moreinfo">
+                                    <div class="miniconthover">
+                                        <h2 class="NameCurso">Administação de Cargos & Salários</h2>
+                                        
+                                        <div class="cargah">
+                                            <img src="./img/clock.png" alt="" class="iconTime">
+                                            <span class="time">12 Horas</span>
+                                        </div>
+                                        <div class="precos">
+                                            <span class="quanParcela">12x</span>
+                                            <h3 class="valorP">R$ 7,50</h3>
+                                        </div>
+
+                                        <p class="outroValor">
+                                            ou R$ 90,00 <br> à vista
+                                        </p>        
+                                </div>
+                                    
+
+
+                                </div>
+                            </div>
+                            <div class="slot3 c3"  id="c3">
+                                <h3 class="name-curso">Curso RH</h3>
+                                <div class="moreinfo">
+                                    <div class="miniconthover">
+                                        <h2 class="NameCurso">Administação de Cargos & Salários</h2>
+                                        
+                                        <div class="cargah">
+                                            <img src="./img/clock.png" alt="" class="iconTime">
+                                            <span class="time">12 Horas</span>
+                                        </div>
+                                        <div class="precos">
+                                            <span class="quanParcela">12x</span>
+                                            <h3 class="valorP">R$ 7,50</h3>
+                                        </div>
+
+                                        <p class="outroValor">
+                                            ou R$ 90,00 <br> à vista
+                                        </p>        
+                                </div>
+
+
+                                </div>
+                            </div>
+                            <div class="slot4 c1"  id="c1">
+                                <h3 class="name-curso">Curso RH</h3>
+                                <div class="moreinfo">
+                                    <div class="miniconthover">
+                                        <h2 class="NameCurso">Administação de Cargos & Salários</h2>
+                                        
+                                        <div class="cargah">
+                                            <img src="./img/clock.png" alt="" class="iconTime">
+                                            <span class="time">12 Horas</span>
+                                        </div>
+                                        <div class="precos">
+                                            <span class="quanParcela">12x</span>
+                                            <h3 class="valorP">R$ 7,50</h3>
+                                        </div>
+
+                                        <p class="outroValor">
+                                            ou R$ 90,00 <br> à vista
+                                        </p>        
+                                </div>
+
+
+                                </div>
+                            </div>
+                            <div class="slot5 c2"  id="c2">
+                                <h3 class="name-curso">Curso RH</h3>
+                                <div class="moreinfo">
+                                    <div class="miniconthover">
+                                        <h2 class="NameCurso">Administação de Cargos & Salários</h2>
+                                        
+                                        <div class="cargah">
+                                            <img src="./img/clock.png" alt="" class="iconTime">
+                                            <span class="time">12 Horas</span>
+                                        </div>
+                                        <div class="precos">
+                                            <span class="quanParcela">12x</span>
+                                            <h3 class="valorP">R$ 7,50</h3>
+                                        </div>
+
+                                        <p class="outroValor">
+                                            ou R$ 90,00 <br> à vista
+                                        </p>        
+                                </div>
+
+
+                                </div>
+                            </div>
+                            <div class="slot6 c3"  id="c3">
+                                <h3 class="name-curso">Curso RH</h3>
+                                <div class="moreinfo">
+                                    <div class="miniconthover">
+                                        <h2 class="NameCurso">Administação de Cargos & Salários</h2>
+                                        
+                                        <div class="cargah">
+                                            <img src="./img/clock.png" alt="" class="iconTime">
+                                            <span class="time">12 Horas</span>
+                                        </div>
+                                        <div class="precos">
+                                            <span class="quanParcela">12x</span>
+                                            <h3 class="valorP">R$ 7,50</h3>
+                                        </div>
+
+                                        <p class="outroValor">
+                                            ou R$ 90,00 <br> à vista
+                                        </p>        
+                                </div>
+
+
+                                </div>
+                            </div>
+                            <div class="slot7 c1"  id="c1">
+                                <h3 class="name-curso">Curso RH</h3>
+                                <div class="moreinfo">
+                                    <div class="miniconthover">
+                                        <h2 class="NameCurso">Administação de Cargos & Salários</h2>
+                                        
+                                        <div class="cargah">
+                                            <img src="./img/clock.png" alt="" class="iconTime">
+                                            <span class="time">12 Horas</span>
+                                        </div>
+                                        <div class="precos">
+                                            <span class="quanParcela">12x</span>
+                                            <h3 class="valorP">R$ 7,50</h3>
+                                        </div>
+
+                                        <p class="outroValor">
+                                            ou R$ 90,00 <br> à vista
+                                        </p>        
+                                </div>
+
+
+                                </div>
+                            </div>
+                            <div class="slot8 c2"  id="c2">
+                                <h3 class="name-curso">Curso RH</h3>
+                                <div class="moreinfo">
+                                    <div class="miniconthover">
+                                        <h2 class="NameCurso">Administação de Cargos & Salários</h2>
+                                        
+                                        <div class="cargah">
+                                            <img src="./img/clock.png" alt="" class="iconTime">
+                                            <span class="time">12 Horas</span>
+                                        </div>
+                                        <div class="precos">
+                                            <span class="quanParcela">12x</span>
+                                            <h3 class="valorP">R$ 7,50</h3>
+                                        </div>
+
+                                        <p class="outroValor">
+                                            ou R$ 90,00 <br> à vista
+                                        </p>        
+                                </div>
+
+
+                                </div>
+                            </div>
+                            
+                            
+                            
+                       
+                    </div>
+                </section>
+               
+                <section class="section2">
+                    <div class="texto">
+                        <h2 class="infotitle">Sobre Nós</h2>
+                        
+                        <p class="textinfo">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ea impedit explicabo voluptates, voluptatum est deserunt. Dolor quo ex id atque possimus ullam obcaecati, adipisci accusamus, harum in neque rem.lorem
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ea impedit explicabo voluptates, voluptatum est deserunt. Dolor quo ex id atque possimus ullam obcaecati, adipisci accusamus, harum in neque rem.lorem
+                        </p>
+                    <button class="btn"></button></div>
+                    <div class="photo0"><img class="phot" src="./img/PHOTO2.png" alt="">  <img class="seta3" src="./img/seta.png" alt=""></div>
+                </section>
+                <section class="section3">
+                    <h2 class="minititle2" id="noticias">Notícias</h2>
+                    <div class="minicontainer">
+                        <div class="noticia1"><h4 class="noticetitle">Morbi tristique senectus et netus
+                        </h4> <p class="noticedesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmoet dolore magna aliqua.
+                        </p></div>
+                        <div class="minicontainer2">
+                            <div class="noticia2"><h3 class="noticetitle2">Sit amet risus nullam eget
+                            </h3></div>
+                            <div class="noticia3"><h3 class="noticetitle3">Sit amet risus nullam eget
+                            </h3></div>
+                        </div>
+                    </div>
+                    <a href="#" class="more"> <span>Ver Mais</span></a>
+                </section>
+             </main>
+             <footer class="footer">
+
+                <div class="extra">
+                    <div class="minicontfooter">
+                        <h3 class="inf" >Sobre</h3>
+                        <h3  class="inf" >Cursos</h3>
+                        <h3  class="inf" >Consultoria</h3>
+                        <h3 class="inf" >Notícias</h3>
+                    </div>
+                    <div class="redesoc">
+                        <h3 class="inf s acompanhe">Acompanhe</h3>
+                        <div class="images">
+                            <img src="./img/instaLogo.png" alt="instagramLogo" class="redeIcon">
+                            <img src="./img/faceLogo.png" alt="FacebookLogo" class="redeIcon">
+                            <img src="./img/twittLogo.png" alt="TwitterLogo" class="redeIcon"></div>
+                    </div>
+
+                    <div class="suporte"><h3 class="inf s">Suporte</h3>
+                        <p class="item">Central de Ajuda</p>
+                        <p class="item">Termos de Uso</p>
+                        <p class="item">Política de Privacidade</p>
+                        <p class="item">Política de Cookies</p>    
+                    
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <div class="end">
+                    <h3 class="creditos">Desenvolvido por: </h3><p class="final"><a class="credito" target="_blank" href="https://github.com/JuliaMCnunes">JuliaMCnunes</a>, <a class="credito" target="_blank" href="https://github.com/JWsley">JWsley</a>, <a class="credito" target="_blank" href="https://github.com/LuizSCijani">LuizSCijani</a> e <a class="credito" target="_blank" href="https://github.com/AnaPCNunes">AnaPCNunes</a></p>
+                </div>
+             </footer>
+  </div>
+  <script src="page1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="carousel.js"></script>
+</body>
+</html>

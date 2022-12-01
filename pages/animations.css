@@ -1,0 +1,124 @@
+.c1:hover .name-curso{
+    display: none;
+}
+
+ 
+
+.c1:hover {
+    /* width: 1290px;
+    height: 545px; */
+     
+   background-size: cover;
+   
+   animation: shadowColor 3s infinite ;
+   
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 1s;
+}
+
+
+.c2:hover .name-curso{
+    display: none;
+    transition: 1s;
+}
+
+.c1:hover .moreinfo{
+    display: block;
+    transition: 1s;
+   
+}
+ 
+.c2:hover .moreinfo{
+    display: block;
+    transition: 1s;
+   
+}
+.c3:hover .moreinfo{
+    display: block;
+    transition: 1s;
+   
+}
+
+.c2:hover {
+    /* width: 1290px;
+    height: 545px; */
+     
+   background-size: cover;
+   
+   animation: shadowColor 3s infinite ;
+   
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 1s;
+}
+
+
+.c3:hover .name-curso{
+    display: none;
+}
+
+ 
+
+.c3:hover {
+    /* width: 1290px;
+    height: 545px; */
+    
+   background-size: cover;
+   
+   animation: shadowColor 3s infinite ;
+   
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 1s;
+}
+ 
+@keyframes shadowColor {
+    
+    0%{	box-shadow: 
+        0px -3px 15px 4px #353B57;
+        }
+
+    25%{	box-shadow: 0px 3px 15px 4px #36EEE0;
+        }
+
+    50%{	box-shadow: 
+            0px -3px 15px 4px #353B57;
+            }
+
+
+     75%{	box-shadow: 
+                -3px 0px 15px 4px #D73186; 
+             
+                }
+
+
+
+    100%{	box-shadow:
+                    3px 0px 15px 4px #353B57;
+        }
+
+        }
+
+
+
+        
+ @keyframes navanimate {
+
+    0%{
+        background-color: #36EEE0;
+    }
+    50%{ 
+        background-color: #D73186E0;
+    }
+
+    100%{
+        background-color: #4C5270;
+    }
+    
+    }
+ 
+
+    a{
+        text-decoration: none;
+    }
