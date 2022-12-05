@@ -108,6 +108,10 @@ height: 60.36px;
     
 }
 
+
+
+
+
 .lupa{
     width: 35px;
     height: 31px;
@@ -174,8 +178,6 @@ height: 60.36px;
 
 
 
-
-
  
 
 .teste{
@@ -193,217 +195,6 @@ height: 60.36px;
 }
 
 
-/* Area dos formularios */
-
-.formback{
-
-
-    display: none;
-    
-    background-color: rgba(0, 0, 0, 0.5);
-
-    position: absolute;
-    z-index: 2;
- 
-}
-
-
-.formcontainer{
-    transition: 2s;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
- 
-}
-
-
-
-
-
-
-.form{
-    transition: 2s;
-    height: 900px;
-    width: 700px;
-    background-color: white;
-    border-radius: 10px;
-}
-
-
-.headform{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-    border-radius: 10px 10px 0px 0px;
-    height: 78px;
-    width: 700px;
-    background-color: #353B57;
- 
-
-}
-
-.cadform{
-    position: relative;
-    text-align: center;
-    width: 125px;
-    height: 34px;
-    
-    margin-left: 40%;
-    
-    cursor: default;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600px;
-    font-size: 28px;
-    line-height: 34px;
-    /* identical to box height */
-    
-    
-    /* verde fosco */
-    
-    color: #BCECE0;
-
-
-}
-
-.X{
-    position: relative;
-    cursor: pointer;
-    width: 80px;
-    margin-left: 35%;
-   
-    -webkit-text-stroke-color: #BCECE0;
-
-    cursor: pointer;
- 
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600px;
-    font-size: 28px;
-    line-height: 34px;
-    /* identical to box height */
-    
-    
-    /* verde fosco */
-    
-    color: #BCECE0;
-}
-
-
-
-.escolha{
-
-
-    margin-top: 15px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500px;
-    font-size: 26px;
-    line-height: 31px;
-
-    -webkit-text-stroke-width: 1px;
-    text-align: center;
-    /* Azul escuro */
-
-    color: #353B57;
-    }
- 
-
-
-.selecione{
-    width: 100%;
-    height: 80px;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-
-
-
-}
-
-
-#selct1,#selct2{
-    display: none;
-}
-
-
-
-.check1 ,.check2{
-
-    width: 40px;
-    height: 40px;
-    left: 565px;
-    top: 164px;
-
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border: 2px solid #353B57;
-    border-radius: 5px;
-
-}
-
-
-.spantxt{
-    margin-left: 10px;
-    width: 178px;
-height: 29px;
-left: 620px;
-top: 170px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
-
-
-/* Azul escuro */
-
-color: #353B57;
-    
-}
-
-.op1,.op2{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.pointer{
-    display: none;
-    height: 10px;
-    width: 10px;
-}
-
-
-
-#a1,#a2{
-    display: none;
-}
-
-
-.area{
-    margin-left: 15px;
-    z-index: 3;
-    width: 665px;
-height: 680px;
-border: 2px solid #353B57;
-
-
-
-}
-/* =========-------------============ */
-
 
 
 
@@ -416,9 +207,9 @@ border: 2px solid #353B57;
 }
 
 .minititle{
- 
+
     
-   
+ 
     width: 439px;
     height: 36px;
 
@@ -445,7 +236,6 @@ color: #353B57;
 }
 
 .carousel2{
-
  
     width: 100%;
     height: 483px;
@@ -569,14 +359,14 @@ color: #D73186;
 
 .quanParcela{
     font-family: 'Inter';
-font-style: normal;
-font-weight: 500px;
-font-size: 24px;
-line-height: 29px;
-text-align: center;
-margin-top: 15px;
-margin-right: 5px;
-
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 5px;
+    
 /* azul acizentado */
 
 color: #4C5270;
@@ -588,7 +378,7 @@ color: #4C5270;
     font-weight: 500px;
     font-size: 18px;
     line-height: 25px;
-text-align: center;
+    text-align: center;
 
 /* azul acizentado */
 
@@ -597,15 +387,15 @@ color: #4C5270;
 }
 
 .c1{
-    background: url(./img/curso1.png) no-repeat;
+    background: url(../img/curso1.png) no-repeat;
 }
 
 .c2{
-    background: url(./img/curso2.png);
+    background: url(../img/curso2.png);
 }
  
 .c3{
-    background: url(./img/curso3.png);
+    background: url(../img/curso3.png);
 }
  
  
@@ -695,7 +485,7 @@ color: #353B57;
      width: 555px;
      height: 500px;
      border: 2px solid black;
-     background: url(./img/noticia1.png) no-repeat;
+     background: url(../img/noticia1.png) no-repeat;
      background-size: cover;
      box-shadow: 0px 0px 15px 4px black,inset 44px 10px 164px 52px rgba(0,0,0,0.47);
      cursor: pointer;
@@ -708,7 +498,7 @@ color: #353B57;
      width: 555px;
      height: 239px;
     border: 2px solid black;
-    background: url(./img/noticia3.png) no-repeat;
+    background: url(../img/noticia3.png) no-repeat;
     background-size:500% 500% cover;
     box-shadow: 0px 0px 15px 4px black,inset 44px 10px 226px -11px rgba(0,0,0,0.47);
     cursor: pointer;
@@ -721,7 +511,7 @@ color: #353B57;
     width: 555px;
     height: 239px;
     border: 2px solid black;
-    background: url(./img/noticia2.png);
+    background: url(../img/noticia2.png);
     background-size: cover;
     box-shadow: 0px 0px 15px 4px black,inset 44px 10px 226px -11px rgba(0,0,0,0.47);
     cursor: pointer;
@@ -1205,7 +995,9 @@ color: #FFFFFF;
 
 
 
+ 
 
 
 
+/* 1k */
     /* =========== */

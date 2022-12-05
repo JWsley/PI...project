@@ -5,18 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="./page1.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
-    <link rel="stylesheet" href="./animations.css">
+
     
+    <link rel="stylesheet" href=" ./assets/styles/HomePage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <link rel="stylesheet" href=" ./assets/styles/animations.css">
+    <link rel="stylesheet" href=" ./assets/styles/formularios.css">
+
+
+
+    <!-- Import scrollReveal -->
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <!-- =========================== -->
 </head>
 <body id="body">
     <div class="container">
+        <div id="menssage" class="sucess"><h2 class="sucesstxt">Cadastro feito com sucesso!</h2></div>
+       
         <!-- AREA DOS FORMULARIOS -->
         <div class="formback" id="formback">
 
-            <div class="formcontainer">
-                <div class="form">
+            <div id="formulario" class="formcontainer">
+                <div class="form" id="form1">
                     <header class="headform">
                         <h3 class="cadform">Cadastro</h3>
                         <span onclick="formEnd()" class="X">X</span>
@@ -30,7 +40,7 @@
                                
                             <div class="op1">
                                 
-                                    <div  class="check1" onclick="selectOPT(1)"><img src="./img/pointer.png" alt="ponto" id='pnt1' class="pointer"></div>
+                                    <div  class="check1" onclick="selectOPT(1)"><img src="./assets/img/pointer.png" alt="ponto" id='pnt1' class="pointer"></div>
                                     <span class="spantxt">Pessoa Fisica</span>
 
                                    
@@ -38,28 +48,171 @@
                                 
                             <div class="op2">       
                                 
-                                    <div class="check2" onclick="selectOPT(2)"><img src="./img/pointer.png" alt="ponto"  id='pnt2' class="pointer"></div>
+                                    <div class="check2" onclick="selectOPT(2)"><img src="./assets/img/pointer.png" alt="ponto"  id='pnt2' class="pointer"></div>
                                     <span class="spantxt">Pessoa Juridica</span>
                                 </div>
                             </div>
-                            <div id="a1" class="inputsarea1"><div class="area">
-                                <h3>Fisica</h3>   
-                            </div></div>
-                            <div id="a2" class="inputsarea2"><div class="area">
-                                <h3>Juridica</h3> 
-                            </div></div>
+                         
+                         
+                                
+                                
+                                <div  id="a1"  class="area1">
+                               
+                                <form  id="form1" class="form1">
+                                  <div class="minicont3">
+                                      
+                                        <div class="part1">
+                                            
+                                            <span class="texxt">Nome Completo</span>
+                                            <input type="text" required class="inpt">
 
-                            
+                                            <span class="texxt">CPF</span>
+                                            <input type="text" required class="inpt cpf">
+
+
+                                            <span class="texxt">RG</span>
+                                            <input type="text" required class="inpt rg">
+
+
+                                            <span class="texxt">Data de  Nascimento</span>
+                                            <input type="date" maxlength="10"   required class="inpt dataNasc">
+
+
+                                            <span class="texxt">Telefone</span>
+                                            <input type="text" required class="inpt tel">
+
+
+                                            <span class="texxt">Email</span>
+                                            <input type="text" required class="inpt">
+
+                                            
+ 
+
+
+
+                                            
+
+
+                                        </div>
+                                      
+                                        <div class="part2">
+
+                                            <span class="texxt">CEP</span>
+                                            <input type="text" required class="inpt cep">
+
+                                            <span class="texxt">Rua</span>
+                                            <input type="text" required class="inpt">
+
+                                            <div class="part2a">
+                                                    
+                                                <div class="numeroCasa">
+                                                    <span class="texxt">Número</span><input type="text" required class="inptnum ">
+                                                </div>
+
+                                                    <div class="bairro">
+                                                        <span class="texxt">Bairro</span><input type="text" required class="inptbai"></div>
+                                            </div>  
+                                                
+                                            
+
+                                            <span class="texxt">Cidade</span>
+                                            <input type="text" required class="inpt">
+
+
+                                            <span class="texxt">UF</span>
+                                            <input type="text" required class="inpt uf">
+
+
+                                            <span class="texxt">Senha</span>
+                                            <input type="text" required class="inpt">
+
+
+                                        </div>
+                                  </div>
+                             
+                                    <button type="submit"  id="btn">Cadastrar</button>
+                            </form>
+                              
+                            </div>
+                            <div id="a2" class="area2"> 
+    
+                                <form  class="form2">
+                                  
+                                    <div class="minicont3">
+                                      
+                                        <div class="part1">
+                                            
+                                            <span class="texxt">Nome da Empresa</span>
+                                            <input type="text" required class="inpt">
+
+                                            <span class="texxt">Nome Fantasia</span>
+                                            <input type="text"  class="inpt">
+
+
+                                            <span class="texxt">Razão Social</span>
+                                            <input type="text" required class="inpt">
+
+
+                                            <span class="texxt">CNPJ</span>
+                                            <input type="text" required class="inpt cnpj">
+
+
+                                            <span class="texxt">Telefone</span>
+                                            <input type="text" required class="inpt tel2">
+
+
+                                            <span class="texxt">Email</span>
+                                            <input type="text" required class="inpt">
+ 
+
+
+
+                                            
+
+
+                                        </div>
+                                      
+                                        <div class="part2">
+
+                                            <span class="texxt">CEP</span>
+                                            <input type="text" required class="inpt cep2">
+
+                                            <span class="texxt">Rua</span>
+                                            <input type="text" required class="inpt">
+
+                                            <div class="part2a">
+                                                    
+                                                <div class="numeroCasa">
+                                                    <span class="texxt">Número</span><input type="text" required class="inptnum num2">
+                                                </div>
+
+                                                    <div class="bairro">
+                                                        <span class="texxt">Bairro</span><input type="text" required class="inptbai"></div>
+                                            </div>  
+                                                
+                                            
+
+                                            <span class="texxt">Cidade</span>
+                                            <input type="text" required class="inpt">
+
+
+                                            <span class="texxt">UF</span>
+                                            <input type="text" required class="inpt">
+
+
+                                            <span class="texxt">Senha</span>
+                                            <input type="text" required class="inpt">
+
+
+                                        </div>
+                                  </div>
+                             
+                                    <button  type="submit" id="btn">Cadastrar</button>
+                            </form>
+                            </div></div>
+ 
 
                     </body>
-
-
-                    
-                </div>
-
-
-
-
 
             </div>
 
@@ -67,16 +220,18 @@
 
         </div>
         
-       
+      
         <!-- ==========-----================---------========== -->
         
 
              <header class="cabecalho">
-            <div class="photo"><img src="./img/logo.png" alt="" class="logo"></div>
+            <div class="photo"><img src="./assets/img/logo.png" alt="" class="logo"></div>
             <ul class="navp1">
                 <li class="navb">Cursos</li>
                 <li class="navb"   >Consultorias</li>
-                <li class="navb">Sobre Nós</li>
+                <a href="#sobrenos">
+                    <li class="navb">Sobre Nós</li>
+                </a>
                 <a href="#noticias">
                     <li class="navb">Notícias</li>
                 </a>
@@ -86,8 +241,8 @@
 
             <div class="navbar">
                 <div class="pesquisa" id="pesquisa">
-                    <input type="text" id="input" class="input">
-                    <button class="lupabt" onclick="activeSearch()"><img src="./img/lupa.png" class="lupa"  alt=""></button>
+                    <input type="text" required id="input" class="input">
+                    <button class="lupabt" onclick="activeSearch()"><img src="./assets/img/lupa.png" class="lupa"  alt=""></button>
                 </div>
                 <button class="entrar">Entrar</button>
                 <button class="cadBT" onclick="formStart()">Cadastrar</button>
@@ -107,9 +262,9 @@
                     <div class="stop"></div>
                 </button>
                 <section class="banner">
-                    <img src="./img/banner2.png" alt="" class="teste">
-                    <img src="./img/banner2.png" alt="" class="teste">
-                    <img src="./img/banner2.png" alt="" class="teste">
+                    <img src="./assets/img/banner2.png" alt="" class="teste">
+                    <img src="./assets/img/banner2.png" alt="" class="teste">
+                    <img src="./assets/img/banner2.png" alt="" class="teste">
                   
                 </section>
                 <section class="cursos">
@@ -121,17 +276,17 @@
 
                         <ul class="controls" id="custom-controls">
                             <li class="prev">
-                            <img class="seta" src="./img/seta2.png" alt="">
+                            <img class="seta" src="./assets/img/seta2.png" alt="">
                             </li>
                             <li class="next"> 
-                                <img class="seta" src="./img/seta.png" alt="">
+                                <img class="seta" src="./assets/img/seta.png" alt="">
                             </li>
                         </ul>
 
 
 
                         <!-- ============================================= -->
-
+                        <!-- INICIO CAROUSEL2 ============================== -->
                     <div class="carousel2">
                          
                             <div class="slot c1"  id="c1">
@@ -144,7 +299,7 @@
                                         <h2 class="NameCurso">Administação de Cargos & Salários</h2>
                                         
                                         <div class="cargah">
-                                            <img src="./img/clock.png" alt="" class="iconTime">
+                                            <img src="./assets/img/clock.png" alt="" class="iconTime">
                                             <span class="time">12 Horas</span>
                                         </div>
                                         <div class="precos">
@@ -166,7 +321,7 @@
                                         <h2 class="NameCurso">Administação de Cargos & Salários</h2>
                                         
                                         <div class="cargah">
-                                            <img src="./img/clock.png" alt="" class="iconTime">
+                                            <img src="./assets/img/clock.png" alt="" class="iconTime">
                                             <span class="time">12 Horas</span>
                                         </div>
                                         <div class="precos">
@@ -183,6 +338,7 @@
 
                                 </div>
                             </div>
+
                             <div class="slot3 c3"  id="c3">
                                 <h3 class="name-curso">Curso RH</h3>
                                 <div class="moreinfo">
@@ -190,7 +346,7 @@
                                         <h2 class="NameCurso">Administação de Cargos & Salários</h2>
                                         
                                         <div class="cargah">
-                                            <img src="./img/clock.png" alt="" class="iconTime">
+                                            <img src="./assets/img/clock.png" alt="" class="iconTime">
                                             <span class="time">12 Horas</span>
                                         </div>
                                         <div class="precos">
@@ -213,7 +369,7 @@
                                         <h2 class="NameCurso">Administação de Cargos & Salários</h2>
                                         
                                         <div class="cargah">
-                                            <img src="./img/clock.png" alt="" class="iconTime">
+                                            <img src="./assets/img/clock.png" alt="" class="iconTime">
                                             <span class="time">12 Horas</span>
                                         </div>
                                         <div class="precos">
@@ -236,7 +392,7 @@
                                         <h2 class="NameCurso">Administação de Cargos & Salários</h2>
                                         
                                         <div class="cargah">
-                                            <img src="./img/clock.png" alt="" class="iconTime">
+                                            <img src="./assets/img/clock.png" alt="" class="iconTime">
                                             <span class="time">12 Horas</span>
                                         </div>
                                         <div class="precos">
@@ -259,7 +415,7 @@
                                         <h2 class="NameCurso">Administação de Cargos & Salários</h2>
                                         
                                         <div class="cargah">
-                                            <img src="./img/clock.png" alt="" class="iconTime">
+                                            <img src="./assets/img/clock.png" alt="" class="iconTime">
                                             <span class="time">12 Horas</span>
                                         </div>
                                         <div class="precos">
@@ -282,7 +438,7 @@
                                         <h2 class="NameCurso">Administação de Cargos & Salários</h2>
                                         
                                         <div class="cargah">
-                                            <img src="./img/clock.png" alt="" class="iconTime">
+                                            <img src="./assets/img/clock.png" alt="" class="iconTime">
                                             <span class="time">12 Horas</span>
                                         </div>
                                         <div class="precos">
@@ -305,7 +461,7 @@
                                         <h2 class="NameCurso">Administação de Cargos & Salários</h2>
                                         
                                         <div class="cargah">
-                                            <img src="./img/clock.png" alt="" class="iconTime">
+                                            <img src="./assets/img/clock.png" alt="" class="iconTime">
                                             <span class="time">12 Horas</span>
                                         </div>
                                         <div class="precos">
@@ -326,9 +482,10 @@
                             
                        
                     </div>
+                    <!-- FIM DO CAROUSEL2 =============================== -->
                 </section>
                
-                <section class="section2">
+                <section class="section2" id="sobrenos">
                     <div class="texto">
                         <h2 class="infotitle">Sobre Nós</h2>
                         
@@ -337,8 +494,9 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ea impedit explicabo voluptates, voluptatum est deserunt. Dolor quo ex id atque possimus ullam obcaecati, adipisci accusamus, harum in neque rem.lorem
                         </p>
                     <button class="btn"></button></div>
-                    <div class="photo0"><img class="phot" src="./img/PHOTO2.png" alt="">  <img class="seta3" src="./img/seta.png" alt=""></div>
+                    <div class="photo0"><img class="phot" src="./assets/img/PHOTO2.png" alt="">  <img class="seta3" src="./assets/img/seta.png" alt=""></div>
                 </section>
+
                 <section class="section3">
                     <h2 class="minititle2" id="noticias">Notícias</h2>
                     <div class="minicontainer">
@@ -367,9 +525,9 @@
                     <div class="redesoc">
                         <h3 class="inf s acompanhe">Acompanhe</h3>
                         <div class="images">
-                            <img src="./img/instaLogo.png" alt="instagramLogo" class="redeIcon">
-                            <img src="./img/faceLogo.png" alt="FacebookLogo" class="redeIcon">
-                            <img src="./img/twittLogo.png" alt="TwitterLogo" class="redeIcon"></div>
+                            <img src="./assets/img/instaLogo.png" alt="instagramLogo" class="redeIcon">
+                            <img src="./assets/img/faceLogo.png" alt="FacebookLogo" class="redeIcon">
+                            <img src="./assets/img/twittLogo.png" alt="TwitterLogo" class="redeIcon"></div>
                     </div>
 
                     <div class="suporte"><h3 class="inf s">Suporte</h3>
@@ -399,9 +557,32 @@
                 </div>
              </footer>
   </div>
-  <script src="page1.js"></script>
+
+  <!-- CLEAVE IMPORTS -->
+
+<!-- O cleave é basicamente a formatação dos inputs -->
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.0.2/cleave.min.js"></script>
+  <script src="./assets/scripts/plugins/cleave.js"></script>
+ 
+
+  <!-- ============================ -->
+
+<!-- SCROLL REVEAL Script -->
+
+<script src="./assets/scripts/plugins/scrollReveal.js"></script>
+
+<!--========= -=================== ==============  -->
+   
+  <script src="./validationcad.js"></script>
+  <script src="./assets/scripts/HomePage.js"></script>
+  
+  
+  <!-- Imports para a customização do carousel -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="carousel.js"></script>
+  <script src="./assets/scripts/plugins/carousel.js"></script>
+  <!-- ==== ========= ============ ========== == == -->
 </body>
 </html>
