@@ -293,15 +293,18 @@ height: 600px;
  }
 
 .inpt[type="date"]{
-    background-color: #353B57;
-    color: white;
+    background-color: white;
+    color: #353B57;
    cursor: text;
 }
 
 ::-webkit-calendar-picker-indicator{
 
+color: #353B57;
+ 
 
-filter: invert();
+filter: brightness(1.25) ;
+
 cursor: pointer;
 
 

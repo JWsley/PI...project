@@ -44,7 +44,7 @@ function formEnd(){
     var area2 = document.querySelector('#a2')
     
     var formcontainer = document.querySelector('#formback')
-    var body = document.querySelector('#body')
+    var body = document.querySelector('#body');
     
     pointer1.style.display="none"
     area1.style.display="none"
@@ -64,6 +64,9 @@ function formEnd(){
     
     }
 
+
+
+  
  
 function selectOPT(escolha){
     var pointer1 = document.querySelector('#pnt1');
