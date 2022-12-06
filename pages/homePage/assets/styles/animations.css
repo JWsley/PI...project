@@ -122,3 +122,53 @@
     a{
         text-decoration: none;
     }
+
+
+
+
+    @keyframes setadrop {
+
+        0%{ filter:  drop-shadow(0px 0px 10px   #BCECE0);}
+        100%{ filter:  drop-shadow(0px 0px 10px   #D73186);}
+    }    
+
+
+
+
+
+    @keyframes dropon {
+
+        0%{opacity: 0;};
+        100%{opacity: 1;}
+        
+    }
+
+
+    
+    @keyframes startcad {
+
+        0%{opacity: 0;};
+        100%{opacity: 1;}
+        
+        
+    }
+
+
+
+    
+    
+    @keyframes area1opc {
+
+        0%{opacity: 0;};
+        100%{opacity: 1;}
+        
+    }
+
+    
+    
+    @keyframes area2opc {
+
+        0%{opacity: 0;};
+        100%{opacity: 1;}
+        
+    }

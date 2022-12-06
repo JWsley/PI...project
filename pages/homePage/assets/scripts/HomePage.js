@@ -12,6 +12,7 @@ function activeSearch(){
 
 
 
+
 function formStart(){
 
 var formcontainer = document.querySelector('#formback')
@@ -20,7 +21,8 @@ var form = document.querySelector('#formulario')
     
 
 formcontainer.style.display="block"
- 
+
+form.style.animation="dropon 1s ease";
  
 
 body.style.overflow="hidden"
@@ -77,6 +79,7 @@ function selectOPT(escolha){
        
         pointer1.style.display="block";
         area1.style.display="block";
+        area1.style.animation="area1opc .5s ease"
 
         pointer2.style.display="none"
         area2.style.display="none";
@@ -86,6 +89,7 @@ function selectOPT(escolha){
     
         pointer2.style.display="block"
         area2.style.display="block";
+        area2.style.animation="area2opc .5s ease"
 
         pointer1.style.display="none";
         area1.style.display="none";
@@ -97,4 +101,101 @@ function selectOPT(escolha){
 }
  
 
+
+
+// VERIFICAÇAO DA SCROLLBAR==========================================
  
+const seta = document.querySelector('#up');
+
+
+
+window.addEventListener('scroll',function(){
+
+
+let value = window.scrollY;
+
+if (value >= 520){
+
+ seta.style.display="block"
+ seta.style.animation="dropon 4s ease";
+ 
+ 
+ 
+
+
+
+}else{
+    seta.style.display="none";
+    seta.style.animation="dropon 4s invert";
+}
+
+console.log(value)
+
+
+
+});
+
+
+
+
+
+
+
+
+
+// //////////////////////login area
+
+
+
+
+
+function loginstart(){
+
+    var loginback = document.querySelector('#loginback');
+    var body = document.querySelector('#body');
+ 
+        
+    
+    loginback.style.display="block";
+    body.style.overflow="hidden";
+    
+    loginback.style.animation="dropon 1s ease";
+     
+    
+    body.style.overflow="hidden"
+    console.log('foi')
+     
+    
+    
+    }
+    
+    
+    
+    
+    function loginend(){
+        
+        
+        var loginback = document.querySelector('#loginback')
+        var body = document.querySelector('#body');
+        
+    
+       
+            
+        
+        loginback.style.display="none"
+        
+        body.style.overflow="visible"
+        
+         
+        
+         
+        
+        
+        }
+    
+
+        function atalhocad(){
+            loginend()
+
+            formStart()
+        }

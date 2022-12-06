@@ -22,6 +22,60 @@
     <div class="container">
         <div id="menssage" class="sucess"><h2 class="sucesstxt">Cadastro feito com sucesso!</h2></div>
        
+
+
+
+
+        <!-- area do login -->
+
+        <div class="loginback" id="loginback">
+
+            <div class="logincontainer" id="logincontainer">
+                <div class="formlogin" id="loginform">
+                    <header class="headform">
+                        <h3 class="cadform">Entrar</h3>
+                        <span onclick="loginend()" class="X">X</span>
+                        
+                    </header>
+                       
+                    <div class="partLogin">
+                        <form class="loginform">
+                            
+                            <div class="email">
+                            
+                                <span class="texxt lt">Email</span>
+                                <input type="text" required class="inptl">
+                            </div>
+                            <div class="senha">
+                                <span class="texxt lt">Senha</span>
+                                <input type="password" required class="inptl">
+                            </div>
+                            <div class="more">
+                                <span class="esquecisenha">Esqueci minha senha</span>
+
+                                <span class="cadastro" onclick="atalhocad()">Cadastrar</span>
+                            </div>
+                            <button  type="submit" id="btn">Entrar</button>
+                        </form>
+
+                    </div>
+                </div>
+                    
+                
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+        <!-- ============================================ -->
+
+
         <!-- AREA DOS FORMULARIOS -->
         <div class="formback" id="formback">
 
@@ -45,7 +99,7 @@
 
                                    
                             </div>
-                                
+                          
                             <div class="op2">       
                                 
                                     <div class="check2" onclick="selectOPT(2)"><img src="./assets/img/pointer.png" alt="ponto"  id='pnt2' class="pointer"></div>
@@ -222,9 +276,9 @@
         
       
         <!-- ==========-----================---------========== -->
-        
+        <a href="#cabeca"><img src="./assets/img/setaCima.png"  id="up" alt="atalho header" class="setacima"></a>
 
-             <header class="cabecalho">
+             <header id="cabeca" class="cabecalho">
             <div class="photo"><img src="./assets/img/logo.png" alt="" class="logo"></div>
             <ul class="navp1">
                 <li class="navb">Cursos</li>
@@ -244,7 +298,7 @@
                     <input type="text" required id="input" class="input">
                     <button class="lupabt" onclick="activeSearch()"><img src="./assets/img/lupa.png" class="lupa"  alt=""></button>
                 </div>
-                <button class="entrar">Entrar</button>
+                <button class="entrar" onclick="loginstart()">Entrar</button>
                 <button class="cadBT" onclick="formStart()">Cadastrar</button>
             </div>
 

@@ -218,6 +218,9 @@ height: 600px;
 
 
 
+ 
+
+
 .form1,.form2{
     
     
@@ -302,8 +305,7 @@ height: 600px;
 
 color: #353B57;
  
-
-filter: brightness(1.25) ;
+ margin-right: 5px;
 
 cursor: pointer;
 
@@ -409,3 +411,139 @@ box-shadow: 0px 0px 50px 2px ;
     
  }
 /* =========-------------============ */
+
+
+/* ============----=============== AREA DO LOGIN=========================================--------------= */
+.loginback{
+  
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    position: absolute;
+    z-index: 2;
+    transition: 2s;
+}
+
+
+.logincontainer{
+    transition: 10s;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+   
+ 
+}
+
+
+.formlogin{
+    transition: 2s;
+    height: 500px;
+    width: 700px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.email{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.senha{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.partLogin{
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inptl{
+    width: 60%;
+    height: 40px;
+    margin-top: 6px;
+    font-size: 20px;
+    /* Azul escuro */
+    color:  #353B57;
+    border: 2px solid #353B57;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+ }
+ 
+
+ .lt{
+    margin-left: 20%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+ }
+
+
+
+
+.more{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+ .esquecisenha{font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+    /* Azul escuro */
+    
+    color: #353B57;
+    }
+
+
+    .cadastro{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400px;
+font-size: 16px;
+line-height: 19px;
+cursor: pointer;
+/* rosa */
+
+color: #D73186;
+    }
+    
+
+
+.loginform button{
+    width: 189px;
+    height: 71px;
+    margin-left: 34%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+    color: #FFFFFF;
+
+    
+    background: #D73186;
+    border-radius: 50px;
+    margin-top: 55px;
+}
+

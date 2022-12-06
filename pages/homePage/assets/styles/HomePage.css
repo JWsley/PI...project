@@ -831,7 +831,23 @@ padding: 10px;
 border-radius: 100%;
 
  }
- 
+ .setacima{
+    display: none;
+    position: fixed;
+    z-index: 10;
+    top: 15px;
+    right: 15px;
+    height: 70px;
+    width: 70px;
+    
+     
+
+ }
+
+
+
+
+
 
 .tns-nav{
     position: relative;
