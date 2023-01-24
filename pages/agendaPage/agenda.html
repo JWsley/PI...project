@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda-virtual</title>
+    <link rel="stylesheet" href="./assets/styles/agenda.css">
+    <link rel="stylesheet" href="../cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="../homePage/assets/styles/formularios.css">
+</head>
+<body>
+
+    
+
+    <header id="cabeca" class="cabecalho">
+        <a href="../homePage/HomePage.html">
+            <div class="photo"><img src="../cabecalho/img/logo.png" alt="" class="logo"></div>
+        </a>
+        <ul class="navp1">
+            <li class="navb">Cursos</li>
+            <a href="../agendaPage/agenda.html">
+                <li class="navb"   >Consultorias</li>
+            </a>
+            <a href="#sobrenos">
+                <li class="navb">Sobre Nós</li>
+            </a>
+            <a href="#noticias">
+                <li class="navb">Notícias</li>
+            </a>
+        </ul>
+
+
+
+        <div class="navbar">
+            <div class="pesquisa" id="pesquisa">
+                <input type="text" required id="input" class="input">
+                <button class="lupabt" onclick="activeSearch()"><img src="../cabecalho/img/lupa.png" class="lupa"  alt=""></button>
+            </div>
+            <button class="entrar" onclick="loginstart()">Entrar</button>
+            <button class="cadBT" onclick="formStart()">Cadastrar</button>
+        </div>
+
+
+
+    </header>
+    <main>
+        <section class="banner">
+
+            <img src="https://static.vecteezy.com/ti/fotos-gratis/t2/6899445-conceito-de-negocio-de-recrutamento-gratis-foto.jpg " alt="" class="backbanner">
+                <div class="consultoriaStart">
+                    <h2>Consultoria</h2>
+                    <p><span>Início</span>>> Consultoria</p>
+                </div>            
+
+
+
+        </section>
+        <section class="agendaArea">
+                <div class="areaNecessidade">
+                    <h2>Informe a sua necessidade:</h2>
+
+                    <p><span>ATENÇÃO!</span>Aconselhamos a fazer o cadastro no site antes de enviar o pedido de consultoria, para que tenha acesso aos seus agendamentos.<a href="#">Cadastre-se.</a></p>
+
+
+                </div>
+                <div class="areaGeralAgendamento">
+                    <div class="inputxt">
+                        <input type="text"  placeholder="Nome"   class="inpt">
+                        <input type="email" placeholder="Email"   class="inpt">
+                        <input type="text"  placeholder="Empresa"  class="inpt">
+                        <input type="text"  placeholder="Telefone"  class="inpt">
+
+                    </div>
+                    <div class="inputDife">
+                        <div class="inpleft">
+                            <input type="text"  placeholder="Assunto" class="inpt">
+                            <textarea placeholder="Descreva seu problema." class="txtarea" name="desc" id="#" cols="30" rows="10"></textarea>
+                        
+                        </div>
+                        <div class="calendario"></div>
+
+
+
+
+                    </div>
+
+
+                </div>
+
+                <button class="btn">Enviar</button>
+
+
+        </section>
+    
+
+    </main>
+    <footer class="rodape">
+
+
+        <div class="fechamento"></div>
+    </footer>
+
+
+
+
+    <script src="../cabecalho/cabecalho-script.js"></script>
+    <script src="./assets/scripts/agenda.js"></script>
+</body>
+</html>

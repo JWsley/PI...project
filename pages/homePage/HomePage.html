@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
     <link rel="stylesheet" href=" ./assets/styles/animations.css">
     <link rel="stylesheet" href=" ./assets/styles/formularios.css">
+    <link rel="stylesheet" href="../cabecalho/cabecalho.css">
 
 
 
@@ -53,7 +54,7 @@
                             <div class="more">
                                 <span class="esquecisenha">Esqueci minha senha</span>
 
-                                <span class="cadastro" onclick="atalhocad()">Cadastrar</span>
+                                <span class="cadastro" onclick="atalhoCad()">Cadastrar</span>
                             </div>
                             <button  type="submit" id="btn">Entrar</button>
                         </form>
@@ -279,10 +280,12 @@
         <a href="#cabeca"><img src="./assets/img/setaCima.png"  id="up" alt="atalho header" class="setacima"></a>
 
              <header id="cabeca" class="cabecalho">
-            <div class="photo"><img src="./assets/img/logo.png" alt="" class="logo"></div>
+            <div class="photo"><img src="../cabecalho/img/logo.png" alt="" class="logo"></div>
             <ul class="navp1">
                 <li class="navb">Cursos</li>
-                <li class="navb"   >Consultorias</li>
+                <a href="../agendaPage/agenda.html">
+                    <li class="navb"   >Consultorias</li>
+                </a>
                 <a href="#sobrenos">
                     <li class="navb">Sobre Nós</li>
                 </a>
@@ -296,7 +299,7 @@
             <div class="navbar">
                 <div class="pesquisa" id="pesquisa">
                     <input type="text" required id="input" class="input">
-                    <button class="lupabt" onclick="activeSearch()"><img src="./assets/img/lupa.png" class="lupa"  alt=""></button>
+                    <button class="lupabt" onclick="activeSearch()"><img src="../cabecalho/img/lupa.png" class="lupa"  alt=""></button>
                 </div>
                 <button class="entrar" onclick="loginstart()">Entrar</button>
                 <button class="cadBT" onclick="formStart()">Cadastrar</button>
@@ -633,6 +636,11 @@
   <script src="./validationcad.js"></script>
   <script src="./assets/scripts/HomePage.js"></script>
   
+  <!-- ================== Script do cabecalho ======================== -->
+  <script src="../cabecalho/cabecalho-script.js"></script>
+
+
+  <!-- ==================================================[] -->
   
   <!-- Imports para a customização do carousel -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>

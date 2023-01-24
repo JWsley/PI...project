@@ -1,0 +1,404 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    height: 1711px;
+    width: 100%;
+    border: 2px solid grey;
+    overflow-x:hidden;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:3466px ;
+    width: 100vw;
+    border: 2px solid grey;
+    background: white;
+    overflow: hidden;
+    
+}
+
+.banner{
+    z-index: 0;
+    width: 100%;
+
+    height: 328px;
+
+
+    background: linear-gradient(90deg, #36EEE0 14.73%, #4C5270 155.59%);
+}
+
+
+.consultoriaStart{
+    z-index: 1;
+    position: relative;
+    top: 120px;
+    width: 313px;
+    height: 117px;
+    left: 150px;
+}
+
+
+.consultoriaStart h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 50px;
+    line-height: 61px;
+
+/* identical to box height */
+
+
+/* Azul escuro */
+
+color: #353B57;
+
+
+}
+
+.consultoriaStart p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+/* azul acizentado */
+
+color: #4C5270;
+}
+
+.consultoriaStart span{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 30px;
+    line-height: 39px;
+
+/* rosa */
+
+color: #D73186;
+
+
+}
+
+
+.backbanner{
+    position: absolute;
+    
+    z-index: 1;
+    top: 70;
+    width: 100%;
+    height:328px ;
+    display: none;
+}
+
+
+.agendaArea{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 905px;
+    align-items: center;
+    
+
+
+}
+
+
+
+.areaNecessidade{
+    margin-top: 60px;
+width: 1133px;
+height: 111px;
+
+
+
+}
+
+
+
+.areaNecessidade h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+
+/* Azul escuro */
+
+color: #353B57;
+
+}
+
+.areaNecessidade p{
+    margin-top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 24px;
+
+/* Azul escuro */
+
+    color: #353B57;
+
+
+
+
+}
+
+.areaNecessidade span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+/* Azul escuro */
+
+    color: #353B57;
+}
+
+
+.areaNecessidade a{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400 ;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    
+
+/* rosa */
+
+color: #D73186;
+
+}
+
+
+.areaGeralAgendamento{
+display: flex;
+flex-direction: column;
+margin-top: 45px;
+width: 1138px;
+height: 561px;
+
+
+ 
+}
+
+.inputxt{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1138px;
+    height: 113px;
+
+}
+
+
+.inpt{
+    max-width: 550px;
+    height: 45px;
+    left: 150px;
+    top: 627px;
+    margin-right: 19px;
+
+/* Azul escuro */
+    
+    border: 2px solid #353B57;
+    border-radius: 10px;
+    
+    /* PLaceholder */
+    padding-left: 3px;
+
+
+
+}
+
+.inpt::-webkit-input-placeholder{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+/* azul acizentado */
+
+color: #4C5270;
+}
+
+
+.inputDife{
+
+    display: flex;
+    flex-direction: row;
+   
+
+
+
+}
+
+
+
+
+.txtarea{
+    margin-top: 25px;
+    width: 555px;
+    height: 350px;
+    outline: none;
+    border: 2px solid #353B57;
+    border-radius: 10px;
+
+    /* Placeholder */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    /* azul acizentado */
+
+    color: #4C5270;
+
+}.txtarea::-webkit-input-placeholder{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+/* azul acizentado */
+
+color: #4C5270;
+}
+
+
+
+
+
+.calendario{
+    width: 553px;
+    height: 418px;
+    border: 2px solid #353B57;
+    border-radius: 10px;
+    margin-left: -258px;
+}
+
+
+.btn{
+    
+    margin-top: 25px;
+    width: 189px;
+    height: 71px;
+    
+   
+    color: white;
+    /* rosa */
+    transition: 2s;
+    background: #D73186;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 29px;
+/* identical to box height */
+
+
+/* branco */
+
+    color: #FFFFFF;
+    cursor: pointer;
+}.btn:hover{
+
+    transform: scale(1.3);
+    border: 2px solid white;
+    transition: 2s;
+    animation: 2s ease-in-out;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================ */
+
+
+.rodape{
+
+    width: 100%;
+    height: 420px;
+    background-color: #BCECE0;
+    display: flex;
+    flex-direction: column;
+ 
+
+
+}
+
+
+
+.fechamento{
+    position: relative;
+    width: 100%;
+    height: 94px;
+     top: 90%;
+
+    background: #353B57;
+}
