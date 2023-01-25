@@ -1,0 +1,142 @@
+
+
+
+.creditos{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+margin-right: 10px;
+/* identical to box height */
+
+
+/* verde fosco */
+
+color: #BCECE0;
+
+}.final{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+
+.credito{
+    text-decoration: none;
+    color: white;
+}
+
+.extra{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px ;
+    margin-left: 20px;
+
+}
+
+
+.minicontfooter{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    width: 496px;
+height: 29px;
+justify-content: space-between;
+}
+
+.inf{
+    color: white;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500px;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+/* verde fosco */
+
+color: #BCECE0;
+  
+}
+.redesoc{
+    margin-left: 145px;
+
+
+}
+
+.acompanhe{
+    text-align: center;
+}
+
+.redeIcon{
+    width: 39.5px;
+height: 39.5px;
+cursor: pointer;
+transition: 1s;
+}
+
+.redeIcon:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.images{
+    width: 158px;
+height: 40.29px;
+display: flex;
+justify-content: space-between;
+}
+
+
+.suporte{
+    margin-left: 150px;
+    
+}
+
+.s{
+    margin-bottom: 35px;
+}
+
+
+.item{
+    
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400px;
+font-size: 20px;
+line-height: 24px;
+cursor: pointer;
+
+color: #FFFFFF;
+    
+}
+
+.end{
+    position: absolute;
+    height: 75px;
+    background: #353B57;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 3100px;
+   
+}
+
+
+.footer{
+    margin-top: 100px;
+    height: 500px;
+    width: 100%;
+
+    background: #D73186;
+}
+
+
+

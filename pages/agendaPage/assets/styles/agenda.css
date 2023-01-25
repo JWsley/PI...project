@@ -380,25 +380,20 @@ color: #4C5270;
 /* ================================================================ */
 
 
-.rodape{
+.footer{
 
     width: 100%;
     height: 420px;
     background-color: #BCECE0;
-    display: flex;
-    flex-direction: column;
- 
+  
 
 
 }
 
 
 
-.fechamento{
-    position: relative;
-    width: 100%;
-    height: 94px;
-     top: 90%;
+.end{
+    bottom:0px;
 
-    background: #353B57;
+
 }
